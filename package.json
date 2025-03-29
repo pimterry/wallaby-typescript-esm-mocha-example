@@ -1,0 +1,20 @@
+{
+  "name": "wallaby-typescript-esm-mocha-example",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require tsx test/**/*.spec.ts"
+  },
+  "author": "Tim Perry <tim@httptoolkit.com>",
+  "license": "Apache-2.0",
+  "description": "",
+  "devDependencies": {
+    "@types/chai": "^5.2.1",
+    "@types/mocha": "^10.0.10",
+    "chai": "^5.2.0",
+    "mocha": "^11.1.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
