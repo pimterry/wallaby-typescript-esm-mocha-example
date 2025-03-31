@@ -12,5 +12,8 @@ export default {
     testFramework: 'mocha',
     env: {
       type: 'node'
-    }
+    },
+    workers: {
+      restart: true,
+    },
   };
